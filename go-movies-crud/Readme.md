@@ -25,6 +25,11 @@ The server uses Gorilla Mux for routing and connects to a database to manage mov
 ## Running the Server
 
 1. Make sure you have Go installed.
-2. Install Gorilla Mux:
+2. Initialize Go module (if not already):
+   ```bash
+   go mod init movies-api
+
+3. Install Gorilla Mux:
    ```bash
    go get -u github.com/gorilla/mux
+
